@@ -27,7 +27,7 @@ Provide moderately terse responses unless explicitly asked for more detail. When
 - Sheet 1: compare options **T1** and **W1**
 - Sheet 2: compare options **T2** and **W2**
 - These four options (T1, T2, W1, W2) are defined in `Home_Energy_Use_Estimates.xlsx`, sheet "Future Energy Use Estimates" — that sheet calculates total annual "elec kWh consumed" and "elec $cost" for each option; those numbers feed into Lifetime Costs.
-Update "Future Energy Use Estimates" sheet to create named cells those totals, and use those names in formulas throughout the output sheets (not raw cell references).
+Update "Future Energy Use Estimates" sheet to create named cells for those totals, and use those names in formulas throughout the output sheets (not raw cell references).
 
 **Formatting:**
 - ~2–3 rows per year, ~2–3 columns per option (that year's annual numbers + a cumulative-cost column).
@@ -43,7 +43,7 @@ Update "Future Energy Use Estimates" sheet to create named cells those totals, a
 Numerical cost parameters for proposed new equipment and electricity cost come from the "Cost Parameters" sheet in `Lifetime Costs.xlsx`.
 
 **At the start of each option's columns, show:**
-- The option name (matching the heading text from `Home_Energy_Use_Estimates.xlsx` → "Future Energy Use Estimates") (Create and use named cells for these names.)
+- The option name (matching the heading text from `Home_Energy_Use_Estimates.xlsx` → "Future Energy Use Estimates") Create and use named cells for these names.
 - The annual electric energy consumption from "Future Energy Use Estimates" for that option, and below it a "what if" value — initially equal to the above, but user-editable so the homeowner can manually adjust it and see updated results flow through the years
 - For geothermal option columns only: a live-calculated number of years required for the geothermal up-front cost premium to be recovered via cumulative cost savings vs. the air-source option
 - Finally, the up-front costs — the starting point for the cumulative cost calculation
@@ -90,5 +90,5 @@ Numerical cost parameters for proposed new equipment and electricity cost come f
 **Phase 2 is the current focus.** A ready-to-run Phase 2 prompt is in `Phase 2 Prompt.md` in this folder — it covers building the year-by-year lifetime cost comparison sheets (T1 vs W1, T2 vs W2) in `Lifetime Costs.xlsx`, with exact source cell references from `Home_Energy_Use_Estimates.xlsx`. Start there. Note: `Lifetime Costs.xlsx` currently has a broken external-workbook link (it points to a file named `Home_Energy_Use_Estimates 11.xlsx` instead of the actual `Home_Energy_Use_Estimates.xlsx` in this folder) — `Phase 2 Prompt.md` calls this out as the first thing to fix.
 
 ## Working Norms
-- This folder is not yet a git repo. Consider running `git init` early so Claude Code can track changes to the spreadsheets/instructions over time (note: Excel .xlsx files are binary, so git will track them as opaque blobs — diffs won't be human-readable, but version history and rollback still work).
+- This folder is now a git repo. Claude Code can track changes to the spreadsheets/instructions over time (note: Excel .xlsx files are binary, so git will track them as opaque blobs — diffs won't be human-readable, but version history and rollback still work).
 - When editing the .xlsx files, prefer preserving existing formulas/named ranges over hardcoding values, per the Phase 2 instructions above (named cells).
