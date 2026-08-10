@@ -8,7 +8,7 @@ Paste the block below into Claude Code (in this folder) to kick off Phase 2. It'
 
 `Lifetime Costs.xlsx` has named ranges (`A4KwhConsum`, `A4DollarConsum`, `kwhcost`, `kwhmmbtu`, `PctRedAirSeal`, etc.) that point to an **external link** to a file called `Home_Energy_Use_Estimates 11.xlsx` — not the `Home_Energy_Use_Estimates.xlsx` that's actually in this folder. That link is currently broken, so any formula using those names in Lifetime Costs.xlsx is probably returning `#REF!` or a stale cached value.
 
-Please fix this first: either (a) repoint the external link at `Home_Energy_Use_Estimates.xlsx` in this same folder, or (b) recommend I keep both files open together and use Excel's Edit Links dialog, or (c) if you think it's more robust, replace the cross-workbook named ranges with hardcoded values pulled from Home_Energy_Use_Estimates.xlsx plus a clear comment noting the source cell and today's date, so it doesn't silently go stale. Tell me which you did and why.
+Please fix this first: repoint the external link at `Home_Energy_Use_Estimates.xlsx` in this same folder.
 
 ## Preparation — Cost Parameters sheet in `Lifetime Costs.xlsx`
 
