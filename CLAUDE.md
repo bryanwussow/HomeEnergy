@@ -63,7 +63,7 @@ Numerical cost parameters for proposed new equipment and electricity cost come f
 - `Home_Energy_Use_Estimates.xlsx` — central workbook gathering data from all source materials (see "Spreadsheet Breakdown" below)
 - `Lifetime Costs.xlsx` — Cost Parameters sheet (inputs) + two output sheets to be generated (T1/W1 comparison, T2/W2 comparison)
 - `source-materials/Home Energy Assessment Report - Bryan Wussow.md` — Energy Saver NC Home Energy Assessment report (text extract of the original PDF), audit dated Mar 26, 2026. Baseline energy analysis and recommended upgrades to reach stated Goal levels.
-- `source-materials/README - HVAC Heat Load Calculations PDF missing.md` — flags that the Manual J heat load calc PDF needs to be manually added to this folder (see that file for why)
+- `source-materials/HVAC Heat Load Calculations.pdf` — the original 1999 Manual J heat load calculation (`HVAC-Calc 3.0`); scanned/image PDF, read via Claude Code's PDF vision capability. Key figures are summarized in `hvac-summary.md`. See `source-materials/README - HVAC Heat Load Calculations PDF.md` for details.
 - `source-materials/Heating Cooling Degree Days Waxhaw area.xlsx` — heating/cooling degree-day data for airport weather stations near the home
 - `source-materials/Trane Heat Pump Brochure (72-1209-R-41).md` — Trane air-source heat pump lineup and SEER2/HSPF2 ratings (text extract)
 - `source-materials/WaterFurnace CCW5-0016W Product Comparison (7-5-3 Series).md` — WaterFurnace ground-source heat pump series comparison (text extract)
