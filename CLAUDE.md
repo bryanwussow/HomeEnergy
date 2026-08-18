@@ -87,8 +87,44 @@ Numerical cost parameters for proposed new equipment and electricity cost come f
 ## Status
 **Phase 1 is complete.** The A1 table and the rest of Phase 1's review/validation work are done — do not revisit unless the user brings it up.
 
-**Phase 2 is the current focus.** A ready-to-run Phase 2 prompt is in `Phase 2 Prompt.md` in this folder — it covers building the year-by-year lifetime cost comparison sheets (T1 vs W1, T2 vs W2) in `Lifetime Costs.xlsx`, with exact source cell references from `Home_Energy_Use_Estimates.xlsx`. Start there. Note: `Lifetime Costs.xlsx` currently has a broken external-workbook link (it points to a file named `Home_Energy_Use_Estimates 11.xlsx` instead of the actual `Home_Energy_Use_Estimates.xlsx` in this folder) — `Phase 2 Prompt.md` calls this out as the first thing to fix.
+**Phase 2's core build is done** (commit `4c47fa1`, "Build Phase 2 lifetime cost comparison sheets"). Confirmed as of 2026-08-18:
+- The external-workbook link in `Lifetime Costs.xlsx` now correctly points at `Home_Energy_Use_Estimates.xlsx` (the old broken link to `Home_Energy_Use_Estimates 11.xlsx` is fixed).
+- `Cost Parameters` has named cells for every numerical input, with column-E descriptions pulling live values via `TEXT()`.
+- `Future Energy Use Estimates` has named cells for T1/T2/W1/W2 labels, annual kWh, and annual $ cost.
+- Both output sheets (`T1 vs W1`, `T2 vs W2`) are built out 25 years: prorated Year 1, escalating $/kWh, named-cell-driven service/repair/replacement schedules, running cumulative-cost columns, and a live geothermal payback-year calc (currently 8 years for W1 vs T1, 7 years for W2 vs T2).
+
+Remaining/open for Phase 2: review the Cost Parameters values themselves for reasonableness (not yet done as a deliberate pass), and decide whether `Phase 2 Prompt.md` is still needed as a reference or can be retired now that its contents are implemented.
 
 ## Working Norms
 - This folder is now a git repo. Claude Code can track changes to the spreadsheets/instructions over time (note: Excel .xlsx files are binary, so git will track them as opaque blobs — diffs won't be human-readable, but version history and rollback still work).
 - When editing the .xlsx files, prefer preserving existing formulas/named ranges over hardcoding values, per the Phase 2 instructions above (named cells).
+
+<!--
+Append this section to the CLAUDE.md at the root of your HVAC project directory.
+If you don't have a CLAUDE.md yet, this can be the whole file (add other project
+instructions above or below it as needed).
+-->
+ 
+## Shared project data
+ 
+This project tracks home HVAC planning across multiple topics (e.g., load calcs and
+equipment/cost comparison, geothermal ground loop design). To keep numbers consistent
+across separate conversations in this project:
+ 
+- `hvac-summary.md` is the source of truth for building loads, equipment options under
+  consideration, and cost estimates. Read it at the start of any session that depends on
+  these numbers (load Btu/h, chosen or candidate heat pump tonnage, budget figures).
+- If a conversation produces a new or revised load, equipment, or cost figure, update
+  `hvac-summary.md` directly (including the Change Log table) rather than leaving the
+  updated number only in that conversation's chat history. Other sessions won't see it
+  otherwise.
+- When starting work on a sub-topic that depends on these numbers (e.g., "design the
+  ground loop for the geothermal option"), pull the relevant figures from
+  `hvac-summary.md` explicitly — don't assume they're already in context — and note in
+  your output which version/date of the summary you used.
+- If a number in `hvac-summary.md` looks stale or is missing something you need, flag it
+  and ask before assuming a value.
+ 
+ - Whenever you and the user land on a revised load, equipment, or cost figure in conversation, proactively propose writing it to hvac-summary.md rather than waiting to be asked.
+
+ - when you don't have today's date, ask for it before putting the date in a a log entry.
