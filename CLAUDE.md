@@ -91,7 +91,8 @@ Numerical cost parameters for proposed new equipment and electricity cost come f
 - The external-workbook link in `Lifetime Costs.xlsx` now correctly points at `Home_Energy_Use_Estimates.xlsx` (the old broken link to `Home_Energy_Use_Estimates 11.xlsx` is fixed).
 - `Cost Parameters` has named cells for every numerical input, with column-E descriptions pulling live values via `TEXT()`.
 - `Future Energy Use Estimates` has named cells for T1/T2/W1/W2 labels, annual kWh, and annual $ cost.
-- Both output sheets (`T1 vs W1`, `T2 vs W2`) are built out 25 years: prorated Year 1, escalating $/kWh, named-cell-driven service/repair/replacement schedules, running cumulative-cost columns, and a live geothermal payback-year calc (currently 8 years for W1 vs T1, 7 years for W2 vs T2).
+- Both output sheets (`T1 vs W1`, `T2 vs W2`) are built out 25 years: prorated Year 1, escalating $/kWh, named-cell-driven service/repair/replacement schedules, running cumulative-cost columns, and a live geothermal payback-year calc.
+- 2026-08-21: updated Cost Parameters per user field data — `WFInitialUnitCost` $1,700 → $1,400 (net of a guessed $2,000 ground loop connection cost and a guessed $2,300 Duke rebate, both flagged `?` pending confirmation), `WFGroundLoopCost` $3,000 → $4,000 (guess, flagged `?`, label changed to "cost to install ground loop"), `ElecRateBase` $0.1511 → $0.16/kWh (per July–Aug 2026 Duke bills), `ElecEscalationPct` 3% → 5%. Recalculated payback: **9 years** for W1 vs T1 (was 8), **7 years** for W2 vs T2 (unchanged).
 
 Remaining/open for Phase 2: review the Cost Parameters values themselves for reasonableness (not yet done as a deliberate pass), and decide whether `Phase 2 Prompt.md` is still needed as a reference or can be retired now that its contents are implemented.
 
