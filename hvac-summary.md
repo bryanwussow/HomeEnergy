@@ -5,8 +5,8 @@
 > rather than relying on values repeated in chat history. Update this file whenever numbers
 > change — don't just report the change in conversation.
 
-**Last updated:** 2026-08-20
-**Updated by / in conversation:** "read over the project information" session (populated from `Home_Energy_Use_Estimates.xlsx`, `Lifetime Costs.xlsx`, and the Assessment report; then reconciled against the Manual J PDF, real-world operating history, and user-supplied corrections to the Assessment report's tablet-generated Tech Specs)
+**Last updated:** 2026-08-21
+**Updated by / in conversation:** "read over the project information" session (populated from `Home_Energy_Use_Estimates.xlsx`, `Lifetime Costs.xlsx`, and the Assessment report; then reconciled against the Manual J PDF, real-world operating history, and user-supplied corrections to the Assessment report's tablet-generated Tech Specs); most recently the "Tech Specs corrections" session (2026-08-21), which corrected walls, attic, foundation/basement, and windows
 
 ---
 
@@ -15,18 +15,26 @@
 - Address / location: 6960 Old Ridge Road, Waxhaw, NC 28173
 - Climate zone: IECC climate zone 3A (Mixed-Humid) — confirmed by user. (Not stated in the Assessment report itself; matches published IECC maps for Waxhaw, NC / Union County.)
 - Conditioned floor area: **1,550 ft²** — this is **Main Floor only** (corrected by user from the Assessment report's stated 1,500 ft²). The central heat pump system heats/cools the Main Floor only.
-- "Floors above grade: 2" (per Assessment report) = the Main Floor (conditioned) + an attic bonus room above it that is **unfinished and unconditioned** — not a second full conditioned story. The basement is below grade (not counted in this "2"), partly finished, and gets only incidental heat-pump conditioned air (not a fully served zone); basement floor area 500 ft², average wall height 9 ft.
+- "Floors above grade: 2" (per Assessment report) = the Main Floor (conditioned) + an attic bonus room above it that is **unfinished and unconditioned** — not a second full conditioned story. The basement is below grade (not counted in this "2"), partly finished, and receives only partial heat-pump cooling (via two intentionally-cracked basement ducts plus stairway airflow — see below) and no heat-pump heating (heated separately by wood stove only) — not a fully served zone. **Foundation type: Walkout Basement** (corrected by user), total footprint **1,550 ft²** — same outer perimeter as the Main Floor (corrected by user from the previously-listed 500 ft², which was simply wrong). Wall height: **8'8" + rim joist** (corrected by user from 9 ft average).
 - Front of building orientation: **South** (corrected by user — the Assessment report/text-extract had stated NW, which was wrong).
 - Shielding: **generous mature deciduous tree shade in spring, summer, and fall** (corrected by user — the Assessment report had stated "Normal" shielding). This is likely a meaningful contributor to real-world cooling load being lower than the Assessment's modeled cooling estimate (see Section 2).
 - House age / construction type: Built 1999. Exterior walls: 2x4 frame, wood/fiber-cement siding, 1,717.02 ft² modeled area.
 - Insulation levels:
-  - Walls: R-11 cavity, R-0 continuous
-  - Attic: R-18.9 (fiberglass/rockwool batts or blown, 7–9" depth, no radiant barrier)
-  - Basement walls: R-4 continuous (fiberglass blanket)
-  - Windows: single-pane + storm, wood/metal clad frame, U-value 0.51, SHGC 0.56 (NE 29.43 ft², SE 147.17 ft², SW 55.19 ft², NW 122.64 ft²)
+  - Walls: R-13 cavity, R-3 continuous (corrected by user from Assessment report's R-11 cavity/R-0 continuous; "Wall 1," 1,717.02 ft², matches the modeled area already on file)
+  - Attic: two zones per Assessment Tech Specs (corrected by user from the single blended R-18.9 / 7–9" depth / no-radiant-barrier figure):
+    - Attic 1 (area with attic floor): 400 ft², batts, 9.25 in depth, R-30, no radiant barrier
+    - Attic 2 (area with no floor): 1,150 ft², batts or blown, 16 in depth, R-38, radiant barrier: yes
+    - Combined attic area 1,550 ft² (matches Main Floor conditioned area — the attic sits above the whole Main Floor)
+  - Basement walls: three-part breakdown (corrected by user from the single blended R-4 continuous / fiberglass blanket figure):
+    - ~45%: wood frame, above grade, R-13 cavity, R-5 continuous
+    - ~40%: 12" masonry, below grade, no insulation
+    - ~15%: 12" masonry, above grade, no insulation
+  - Basement conditioning: **heating is intentional, via wood stove only** (not the central heat pump). **Cooling is also intentional but partial** — provided by two basement supply ducts deliberately cracked open, plus airflow down the stairway when the stairway door is open; **not** duct leakage (corrected by user — no duct losses involved). Still only a partial/secondary supply compared to the Main Floor's fully-ducted zone, which is why the basement isn't treated as a fully served zone for load-calc purposes.
+  - Windows — Main Floor (corrected by user, replacing the Assessment's single-pane + storm / U-0.51 / SHGC-0.56 / NE-SE-SW-NW figures entirely): 3/4" insulated, Low-E, Argon fill, avg U-value 0.32, SHGC 0.33, no storm windows, Energy Star: yes. By compass direction: East 29 ft², North (back) 128 ft², West 55 ft², South (front) 77 ft² — total 289 ft². (Directions now given as true N/E/S/W, consistent with the corrected South-front orientation in the line above — this also resolves the previously-flagged need to re-check the old NE/SE/SW/NW breakdown.)
+  - Windows — Basement (above grade): insulated, Low-E, Argon fill, avg U-value 0.45. Area not yet specified.
   - Air leakage: 3,490 CFM50 now (14.96 ACH50) → goal 2,617.5 CFM50 (11.22 ACH50); home not professionally air sealed
 - Design temperatures used: Winter 26°F outdoor / 70°F indoor; Summer 91°F outdoor / 75°F indoor (per Assessment report)
-- **Reliability note:** many of the Assessment report's Tech Specs (walls, attic, windows, etc. above) were generated by tablet-based software using its camera to survey each Main Floor room. The user has already found errors in this data (front orientation, shielding — corrected above) and expects to correct more as they're identified — treat unconfirmed Tech Specs figures as provisional. The per-window compass breakdown above (NE/SE/SW/NW ft²) hasn't been re-checked against the corrected South-facing orientation yet — flagged in Open Questions.
+- **Reliability note:** many of the Assessment report's Tech Specs (walls, attic, windows, etc. above) were generated by tablet-based software using its camera to survey each Main Floor room. The user has already found errors in this data (front orientation, shielding — corrected above) and expects to correct more as they're identified — treat unconfirmed Tech Specs figures as provisional.
 
 ## 2. Load Calculation
 
@@ -98,8 +106,7 @@ Ongoing service/repair assumptions (present value):
 
 - [ ] Review the Cost Parameters values themselves for overall reasonableness — flagged as a not-yet-done pass in `CLAUDE.md`
 - [ ] Decide on a leading option among T1/T2/W1/W2 (or continue treating this as open pending more source data, e.g. contractor quotes)
-- [ ] More Assessment report Tech Specs corrections are expected from the user (per 2026-08-20 session) — keep reconciling as they come in
-- [ ] Re-check the Assessment report's per-window compass breakdown (NE 29.43 ft², SE 147.17 ft², SW 55.19 ft², NW 122.64 ft²) against the corrected South-facing front orientation — the mapping hasn't been verified
+- [ ] Get basement above-grade window area (type/U-value known: insulated, Low-E, Argon, U-0.45; ft² not yet given)
 
 ## 6. Change Log
 
@@ -109,3 +116,9 @@ Ongoing service/repair assumptions (present value):
 | 2026-08-18 | Added Manual J load figures (`source-materials/HVAC Heat Load Calculations.pdf`), noted its whole-building vs Main-Floor-only zone breakdown (heat pump serves Main Floor only; basement incidental; attic loft unconditioned), and recorded that years of real-world operation validate the existing 2.5-ton cooling capacity and show the wood stove/heat strips historically carry heating | same session, continued |
 | 2026-08-18 | Clarified the Trane's $0 "initial cost" in Cost Parameters: outside funding covers the full install cost (not an unpriced/unknown item) | same session, continued |
 | 2026-08-20 | Confirmed IECC climate zone 3A. Corrected conditioned area 1,500→1,550 ft², clarified "2 floors above grade" = Main Floor + unconditioned attic bonus room (not a second full story), corrected front orientation NW→South and shielding "Normal"→heavy deciduous tree shade. Flagged the Assessment report's 24,661 Btu/h heating load as a low-confidence tablet-software estimate. Replaced the Assessment's guessed "Now" heating-source split (HP 50%/wood 40%/aux 10%) with A4's data-driven split (73.6% wood / 26.4% heat pump / 0% electric resistance) | "correct various facts in hvac-summary" session |
+| 2026-08-20 | Corrected wall insulation: R-11 cavity/R-0 continuous → R-13 cavity/R-3 continuous ("Wall 1," 1,717.02 ft²) | "Tech Specs corrections" session |
+| 2026-08-21 | Corrected attic insulation: replaced single blended R-18.9 (7–9" depth, no radiant barrier) figure with two-zone breakdown — Attic 1 (floored, 400 ft², R-30 batts, 9.25", no radiant barrier) and Attic 2 (no floor, 1,150 ft², R-38, 16" batts/blown, radiant barrier yes) | "Tech Specs corrections" session |
+| 2026-08-21 | Corrected foundation: Walkout Basement, total footprint 500→1,550 ft² (same outer perimeter as Main Floor; user confirmed 500 ft² was simply wrong), wall height 9 ft avg → 8'8" + rim joist | "Tech Specs corrections" session |
+| 2026-08-21 | Corrected basement walls: replaced blended R-4 continuous (fiberglass blanket) figure with 3-part breakdown (45% wood frame above grade R-13 cavity/R-5 continuous, 40% 12" masonry below grade uninsulated, 15% 12" masonry above grade uninsulated). Added basement conditioning detail: heating intentional via wood stove only; cooling corrected from "incidental/leakage" to intentional-but-partial, via two deliberately-cracked basement supply ducts plus stairway airflow, not duct losses | "Tech Specs corrections" session |
+| 2026-08-21 | Corrected windows: replaced Assessment's single-pane+storm/U-0.51/SHGC-0.56/NE-SE-SW-NW breakdown with Main Floor figures (3/4" insulated Low-E Argon, U-0.32, SHGC 0.33, no storms, Energy Star; East 29/North 128/West 55/South 77 ft², total 289 ft², true compass directions matching corrected South-front orientation) and added Basement above-grade window type (insulated Low-E Argon, U-0.45; area not yet given) | "Tech Specs corrections" session |
+| 2026-08-21 | Dropped the reliability note's mention of the old per-window compass breakdown, now superseded by the corrected window data above. Tech Specs corrections session completed (walls, attic, foundation/basement, windows) | "Tech Specs corrections" session |
