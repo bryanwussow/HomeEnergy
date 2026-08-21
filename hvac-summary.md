@@ -108,6 +108,8 @@ Ongoing service/repair assumptions (present value):
 - [ ] Decide on a leading option among T1/T2/W1/W2 (or continue treating this as open pending more source data, e.g. contractor quotes)
 - [ ] Get basement above-grade window area (type/U-value known: insulated, Low-E, Argon, U-0.45; ft² not yet given)
 
+**Note on geothermal loop sizing:** `geothermal-loop-design-prompt.md` sizes the ground loop itself to 3-ton/36,000 Btu/h capacity, not the 2.5-ton/30,000 Btu/h W1/W2 equipment figure above — user's choice, for equipment-availability (half-ton units becoming less common) and safety-margin reasons, and to accommodate a possible future 3-ton variable-speed replacement unit. This does not change the W1/W2 equipment cost or performance figures in this file, only the loop-field design target.
+
 ## 6. Change Log
 
 | Date | Change | Changed in conversation |
