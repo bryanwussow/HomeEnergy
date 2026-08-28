@@ -82,21 +82,23 @@ Equipment/install costs are per **equipment type** (Trane vs. WaterFurnace) from
 
 | Option | Equipment cost | Installation cost | Incentives / tax credits | Net estimated cost | Source / date |
 |---|---|---|---|---|---|
-| Trane (T1/T2) | $0 shown as "initial cost" in Cost Parameters — outside funding covers the full cost of installing the Trane equipment | n/a (covered by the same outside funding) | Outside funding source (not further detailed) covers full install cost | $0 net upfront; $14,000 present-value replacement cost budgeted for end-of-life (12-yr service life, not covered by the outside funding) | `Lifetime Costs.xlsx` Cost Parameters, as of 2026-08-18 |
-| WaterFurnace (W1/W2) | $1,700 initial unit cost | $3,000 ground loop cost | Included in the $3,000 loop figure — "after Duke Energy rebate" | $4,700 total upfront | `Lifetime Costs.xlsx` Cost Parameters, as of 2026-08-18 |
+| Trane (T1/T2) | $0 shown as "initial cost" in Cost Parameters — outside funding covers the full cost of installing the Trane equipment | n/a (covered by the same outside funding) | Outside funding source (not further detailed) covers full install cost | $0 net upfront; $14,000 present-value replacement cost budgeted for end-of-life (12-yr service life, not covered by the outside funding) | `Lifetime Costs.xlsx` Cost Parameters, as of 2026-08-21 |
+| WaterFurnace (W1/W2) | $1,400 initial unit cost | $4,000 ground loop cost | Netted into the two figures above — "after Duke Energy rebate" | **$5,400 total upfront** | `Lifetime Costs.xlsx` Cost Parameters, as of 2026-08-21 |
 
-**Annual operating cost by scenario** (from `Home_Energy_Use_Estimates.xlsx` → Future Energy Use Estimates, Year-1 full-year basis):
+**Annual operating cost by scenario** (from `Home_Energy_Use_Estimates.xlsx` → Future Energy Use Estimates, Year-1 full-year basis, at $0.16/kWh). **Updated 2026-08-28:** `Home_Energy_Use_Estimates.xlsx`'s own electricity rate (`kwhcost`, Current Energy Consumption!I2) was $0.1511/kWh — stale versus `Lifetime Costs.xlsx`'s `ElecRateBase` ($0.16/kWh, set 2026-08-21). Corrected I2 to $0.16 to match, eliminating the inconsistency; the two workbooks are still not wired together via a shared named cell, so re-check this if either rate changes again. Note the kWh figures for T1/T2/W1/W2 also shifted very slightly (<0.2%) as a side effect — the workbook appears to tie the assumed wood-stove/heat-pump usage split partly to relative electricity cost, so raising the rate marginally shifted that split too.
 
-| Scenario | Annual kWh | Annual $ cost | vs. current usage ($1,526/yr) |
+| Scenario | Annual kWh | Annual $ cost | vs. current usage ($1,616/yr) |
 |---|---|---|---|
-| T1 (Trane, wood stove) | 9,927 | $1,500 | +$26/yr savings |
-| T2 (Trane, no wood stove) | 11,949 | $1,805 | –$280/yr (costs more) |
-| W1 (Geothermal, wood stove) | 7,746 | $1,170 | +$355/yr savings |
-| W2 (Geothermal, no wood stove) | 8,832 | $1,335 | +$191/yr savings |
+| T1 (Trane, wood stove) | 9,939 | $1,590 | +$25/yr savings |
+| T2 (Trane, no wood stove) | 11,968 | $1,915 | –$299/yr (costs more) |
+| W1 (Geothermal, wood stove) | 7,753 | $1,240 | +$375/yr savings |
+| W2 (Geothermal, no wood stove) | 8,843 | $1,415 | +$201/yr savings |
 
-**25-year lifetime cost comparison** (`Lifetime Costs.xlsx`, both sheets built out with escalating electricity rates, service/repair/replacement schedules, and running cumulative cost):
-- Geothermal payback vs. Trane (upfront premium of $4,700 recovered via cumulative savings): **W1 vs T1 — 8 years**; **W2 vs T2 — 7 years**.
-- Electricity rate assumption: $0.1511/kWh base (2026), escalating 3%/yr, present-value/nominal projection (not inflation-adjusted).
+**25-year lifetime cost comparison** (`Lifetime Costs.xlsx`, both sheets built out with escalating electricity rates, service/repair/replacement schedules, and running cumulative cost — recalculated 2026-08-21 with the updated Cost Parameters, re-confirmed directly from the workbook 2026-08-28 after fixing the electricity-rate mismatch above and refreshing the workbook's external links):
+- Geothermal payback vs. Trane (upfront premium of $5,400 recovered via cumulative savings): **W1 vs T1 — 9 years** (was 8 years before the 2026-08-21 parameter update); **W2 vs T2 — 7 years** (unchanged). The rate-mismatch fix didn't change either payback year.
+- Electricity rate assumption: **$0.16/kWh base (2026), escalating 5%/yr**, present-value/nominal projection (not inflation-adjusted) — now consistent across both workbooks.
+- 25-year cumulative total cost: T1 **$109,439** vs. W1 **$66,174** (W1 saves ~$43,265 over 25 years); T2 **$124,716** vs. W2 **$74,382** (W2 saves ~$50,333 over 25 years).
+- 25-year cumulative total cost: T1 **$109,350** vs. W1 **$66,125** (W1 saves ~$43,225 over 25 years); T2 **$124,572** vs. W2 **$74,304** (W2 saves ~$50,268 over 25 years).
 
 Ongoing service/repair assumptions (present value):
 - Trane: $200/yr tuneup; $800 repair in service years 6 and 9; $14,000 replacement at 12-year service life.
@@ -127,3 +129,5 @@ Ongoing service/repair assumptions (present value):
 | 2026-08-21 | Corrected windows: replaced Assessment's single-pane+storm/U-0.51/SHGC-0.56/NE-SE-SW-NW breakdown with Main Floor figures (3/4" insulated Low-E Argon, U-0.32, SHGC 0.33, no storms, Energy Star; East 29/North 128/West 55/South 77 ft², total 289 ft², true compass directions matching corrected South-front orientation) and added Basement above-grade window type (insulated Low-E Argon, U-0.45; area not yet given) | "Tech Specs corrections" session |
 | 2026-08-21 | Dropped the reliability note's mention of the old per-window compass breakdown, now superseded by the corrected window data above. Tech Specs corrections session completed (walls, attic, foundation/basement, windows) | "Tech Specs corrections" session |
 | 2026-08-28 | Ran the geothermal loop design prompt (`geothermal-loop-design-prompt.md`) against a 3-ton/36,000 Btu/h loop target, the plot plan's two-loop layout, and canopy-adjusted ground temps; logged the preliminary result (~1,800 ft total pipe, 900 ft/loop, 1" SDR-11, ~9 GPM, ~20% propylene glycol) to new file `geothermal loop design - preliminary.md` | "geothermal loop design prompt" session |
+| 2026-08-28 | Reflected the 2026-08-21 `Lifetime Costs.xlsx` Cost Parameters update in Section 4: WaterFurnace upfront cost $4,700→$5,400 ($1,400 unit + $4,000 loop), electricity rate $0.1511→$0.16/kWh base with 5% (was 3%) escalation, W1-vs-T1 payback 8→9 years (W2-vs-T2 unchanged at 7), added 25-yr cumulative totals. Also discovered `Home_Energy_Use_Estimates.xlsx`'s own electricity rate (I2, $0.1511/kWh) was never updated to match | "reflect lifetime cost results in hvac-summary" session |
+| 2026-08-28 | Fixed the rate mismatch: updated `Home_Energy_Use_Estimates.xlsx`!`Current Energy Consumption`!I2 (`kwhcost`) from $0.1511 to $0.16/kWh to match `Lifetime Costs.xlsx`, then refreshed `Lifetime Costs.xlsx`'s external links and re-saved. Updated Section 4's Annual Operating Cost table with the recalculated kWh/$ figures (T1/T2/W1/W2 kWh each shifted <0.2%, apparently because the workbook ties assumed wood-stove/heat-pump usage split partly to relative electricity cost) and current-usage baseline ($1,526→$1,616/yr). Re-confirmed 25-yr cumulative totals after the workbook link refresh (T1 $109,439, W1 $66,174, T2 $124,716, W2 $74,382); payback years unchanged (9 and 7) | same session, continued |
