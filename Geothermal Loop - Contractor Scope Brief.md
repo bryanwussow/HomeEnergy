@@ -53,6 +53,6 @@ The homeowner has no strong preference yet — this is a good item for the contr
 | Pipe | 1" nominal SDR-11 HDPE |
 | Design flow | ~9 GPM total, ~4.5 GPM per loop |
 | Estimated system head | ~30–40 ft (flag: confirm against actual WaterFurnace 5-Series submittal data) |
-| Fluid | ~20% propylene glycol (default), or methanol if the contractor is equipped to handle it |
+| Fluid | ~20% methanol (default, preferred by contractor), or ~20% propylene glycol as an alternate |
 
 **This is a preliminary, homeowner-generated estimate** — see that document's "Assumptions and Flags" section for everything still pending confirmation (soil test, design entering-water-temperature limits, flow rate, groundwater, and final permitted setbacks) before the homeowner proceeds with trenching.
