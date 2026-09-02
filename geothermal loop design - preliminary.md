@@ -16,7 +16,7 @@
 | **Pipe** | 1" nominal SDR-11 HDPE |
 | **Design flow** | ~9 GPM total system flow, ~4.5 GPM per loop |
 | **Estimated loop head loss** | ~12–14 ft per loop circuit + ~15–20 ft heat pump water-side drop ≈ **30–40 ft total system head** (flag: confirm against WaterFurnace 5-Series submittal data) |
-| **Fluid** | ~20% propylene glycol (default), or methanol if the contractor is equipped to handle it |
+| **Fluid** | ~20% methanol (default, preferred by contractor), or ~20% propylene glycol as an alternate |
 
 Both Option A (single narrow trench) and Option B (wide separation) fit comfortably in the available loop field either way. **Option B is the leading choice** — better thermal performance, faster pipe placement/pressure testing, and the trenching machine for the extra passes is already available — at the cost of roughly double Option A's excavation, which isn't a binding constraint on this site.
 
@@ -67,7 +67,7 @@ For reference (not used in the length calculation above): the fluid *leaving* th
 ## 4. Installation / Deliverable Notes
 
 - **Flow & circulation:** ~9 GPM total (3 GPM/ton design standard), split ~4.5 GPM per loop across the two parallel loops. At 4.5 GPM in 1" SDR-11 pipe (ID ≈1.077 in), velocity ≈1.6 ft/s — acceptable for HDPE, though on the low side for peak convective heat transfer; trades off against much lower head loss than 3/4" pipe (~12–14 ft/900 ft loop vs. ~43 ft/900 ft loop for 3/4" pipe) over these long runs. **Flag: confirm required flow rate and heat-pump water-side pressure drop against the actual WaterFurnace 5-Series submittal data** once a specific model is chosen — this drives total pump head and circulator sizing (likely 1/2–3/4 HP class, TBD).
-- **Fluid:** ~20% propylene glycol (simpler default, avoids methanol's flammability/handling concerns), or methanol if the heat pump contractor is equipped to handle it (lower viscosity, better heat-transfer performance at these temperatures). Either should give freeze protection below the coldest point in the system, the estimated ~20–22°F LWT entering the ground loop (colder than the 30°F design EWT — see Step 3). Confirm concentration and choice against manufacturer-approved fluid list.
+- **Fluid:** ~20% methanol (default — preferred by the contractor for its lower viscosity and better heat-transfer performance at these temperatures), or ~20% propylene glycol as an alternate (simpler handling, avoids methanol's flammability concerns, if preferred instead). Either should give freeze protection below the coldest point in the system, the estimated ~20–22°F LWT entering the ground loop (colder than the 30°F design EWT — see Step 3). Confirm concentration and choice against manufacturer-approved fluid list.
 - **Bedding/backfill:** clean fine backfill immediately around the pipe (trenchers don't place bedding automatically); native soil backfill above, compacted in lifts; keep sharp rock away from pipe wall.
 - **Pressure testing:** standard IGSHPA practice — pressurize to ~100 psi, hold and monitor (e.g., 30 min–24 hr) with no pressure loss, before backfilling any section. Under Manifold Option 2 (vault), the vault's fusion joints need their own pressure test in addition to this.
 - **Wall penetration:** sealed sleeve through the basement foundation wall (hydraulic cement or a purpose-made geothermal wall boot) to prevent water intrusion. Under Manifold Option 1 this means up to 4 penetrations (one supply/return pair per loop); under Option 2, a single reduced-count pair from the vault.
