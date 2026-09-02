@@ -10,7 +10,7 @@
 
 ## Proposed Scope Split
 
-**Homeowner proposes to install:** the ground loop itself — both trenches (per the wide-separation layout below), the HDPE pipe runs, near-house pipe routing and depth transition, and backfill.
+**Homeowner proposes to install:** the ground loop itself — both trenches (per the wide-separation layout below), the HDPE pipe runs, near-house pipe routing and depth transition, and backfill. Trenching would use a rented trenching tractor capable of a consistent 5 ft depth and 6–12 in. width, for the majority of the ground loop.
 
 **Proposed for contractor to provide:** finalizing the ground loop's connection to the manifold and heat pump, final system pressure testing/purge/fill, fluid charging, and installation of the heat pump unit itself. **Open item for contractor input:** whether the manifold should be built inside the basement or in an exterior below-grade vault (see "Manifold Location" below) — this affects how much of the connection work is field-fusion welding versus mechanical fittings made indoors.
 
