@@ -1,6 +1,6 @@
 # Geothermal Ground Loop — Scope Brief for Contractor Review
 
-**Date:** 2026-08-28
+**Date:** 2026-08-28; revised 2026-10-04 to match updated figures in `geothermal loop design - preliminary.md`
 **Property:** 6960 Old Ridge Road, Waxhaw, NC 28173
 **Purpose of this document:** background and site parameters for evaluating the homeowner-installed ground loop plan below. See the companion documents for the full design results and site drawing:
 - `geothermal loop design - preliminary.md` — full calculations, recommended pipe length/size/flow, and installation notes
@@ -35,7 +35,7 @@
 
 ### Trench Layout — Option B preferred (wide separation)
 
-Each loop's supply and return legs run as separate trenches, held apart at any convenient distance for ~75% of the run, narrowing to ≥6 ft separation for the final stretch approaching the house — roughly 1,800 ft of total trenching across both loops. This is the homeowner's preferred approach over a single narrow shared trench: better thermal performance (avoids short-circuiting between the two legs), faster to place and pressure-test since the trenches don't have to be worked one at a time in a shared cut, and the trenching machine needed for the extra passes is already available. Open to the contractor's feedback if there's a reason to reconsider.
+Each loop's supply and return legs run as separate trenches, held apart at any convenient distance for ~75% of the run, narrowing to ≥6 ft separation for the final stretch approaching the house — roughly 1,950 ft of total trenching across both loops. This is the homeowner's preferred approach over a single narrow shared trench: better thermal performance (avoids short-circuiting between the two legs), faster to place and pressure-test since the trenches don't have to be worked one at a time in a shared cut, and the trenching machine needed for the extra passes is already available. Open to the contractor's feedback if there's a reason to reconsider.
 
 ### Manifold Location — open, requesting contractor input
 
@@ -49,10 +49,10 @@ The homeowner has no strong preference yet — this is a good item for the contr
 
 | Item | Value |
 |---|---|
-| Total pipe length | ~1,800 ft (900 ft per loop) |
+| Total pipe length | ~1,950 ft (975 ft per loop) |
 | Pipe | 1" nominal SDR-11 HDPE |
-| Design flow | ~9 GPM total, ~4.5 GPM per loop |
-| Estimated system head | ~30–40 ft (flag: confirm against actual WaterFurnace 5-Series submittal data) |
-| Fluid | ~20% methanol (default, preferred by contractor), or ~20% propylene glycol as an alternate |
+| Design flow | ~9 GPM total, ~4.5 GPM per loop (confirmed against manufacturer data) |
+| Estimated system head | ~20–24 ft (confirmed against manufacturer water-side pressure drop data) |
+| Fluid | Methanol (default, preferred by contractor) or propylene glycol as an alternate — concentration still pending confirmation (not necessarily the same % for each fluid) |
 
 **This is a preliminary, homeowner-generated estimate** — see that document's "Assumptions and Flags" section for everything still pending confirmation (soil test, design entering-water-temperature limits, flow rate, groundwater, and final permitted setbacks) before the homeowner proceeds with trenching.
