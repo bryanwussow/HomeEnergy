@@ -30,3 +30,7 @@ Once you send the first message in a new session, it gets its own AI-generated t
 ## Open gap in the official docs
 
 The docs confirm you can "start a new one" from the sessions list, but don't document a specific visible button/icon for it inside that view — the keyboard shortcut or Command Palette route above are the documented ways.
+
+## How to print markdown file to a pdf
+
+In VSCode, Use the extension named Markdown PDF by yzane. In the Activity bar, check that extensions are available and don't need a restart. Open your .md file, right-click inside the editor, and select Markdown PDF: Export (pdf) or Export (html). You can then print the generated PDF/HTML document.
