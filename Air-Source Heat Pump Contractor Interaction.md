@@ -31,16 +31,16 @@ These are the facts a contractor needs to size and price the job; all are from `
 | Item | Value |
 | --- | --- |
 | Home | Built 1999, IECC climate zone 3A, front faces south, heavy deciduous tree shade |
-| Area served by the heat pump | Main Floor only, 1,550 ft² |
+| Area served by the heat pump | Main Floor 1,550 ft² primarily; minor intentional cooling to basement. |
 | Basement | Walkout, 1,550 ft² footprint, partly finished; heated by wood stove only; partial cooling from two cracked-open supply ducts plus the stairway |
 | Attic bonus room | Unfinished, unconditioned |
-| Existing system | 1999 central air-source heat pump, 2.5 ton (30,000 Btu/h), 11 SEER / 6.8 HSPF, electric resistance aux heat, shared ducts |
-| Other heat | Small wood stove, 24,000 Btu/h |
+| Existing system | 1999 central air-source heat pump, 2.5 ton (30,000 Btu/h), 11 SEER / 6.8 HSPF, 10 kW electric resistance aux heat, shared ducts |
+| Other heat | Wood stove, 24,000 Btu/h |
 | Design airflow | 1,200 CFM (1999 Manual J) |
 | Main Floor load, 1999 Manual J | 20,597 Btu/h heating; 17,243 Btu/h cooling (14,582 sensible + 2,661 latent) |
 | Main Floor load, 2026 Assessment | 24,661 Btu/h heating; about 25,761 Btu/h cooling (low-confidence software estimate) |
 | Field history | The existing 2.5-ton unit has cooled the whole home adequately in 100°F+ weather |
-| Air leakage | 3,490 CFM50 (14.96 ACH50) |
+| Air leakage | Estimated 3,490 CFM50 (14.96 ACH50) |
 | Baseline equipment | 2026 Trane 17 series, 2.5 ton, multi-speed, 16 to 18 SEER2 and 8.1 to 11 HSPF2 |
 
 Sizing position to state up front: 2.5 tons is field-validated for cooling, so a contractor proposing a different size should show the load calculation behind it.
@@ -53,22 +53,29 @@ The homeowner's list, sorted into three groups; the face-to-face questions are i
 
 - **Durability and reliability:** equipment that, in the contractor's own experience, runs year after year and rarely needs service over a long lifetime.
 - **AHRI Certificate of Product Ratings** (with AHRI reference number) for the specific outdoor unit and air handler pairing.
-- **Parts warranty of 10+ years.**
+- **Parts warranty of 10+ years**, including the compressor; the homeowner registers the unit.
 - **Affordable within the EnergySaverNC HOMES program cost limit.**
-- **Very good efficiency:** probably 16 to 18 SEER2 minimum and 8.1 to 11 HSPF2 minimum.
+- **Very good efficiency:** at least 16 SEER2 and 8.1 HSPF2; higher preferred, for example 18 / 11.
 - **Written commissioning report** with subcooling, superheat, static pressure, temperature split, amp draw, and similar readings.
 
 ### Other definite wants
 
 - **Brands in scope:** Trane / American Standard, Daikin / Amana (R-32), Bosch; open to others.
+- **Staging:** two-stage or variable speed preferred; single-stage considered if the contractor's reliability experience favors it.
 - **Long-term service plan** (10-year or lifetime) bundled in, covering system checks and warranty repair labor.
 - **Self-monitoring** included, so the equipment reports its own health status.
 - **Verify and reuse the existing ductwork**, all of which is inside the semi-conditioned walkout basement.
+- **Verify and reuse the existing electrical supply wiring.**
+- **Electric aux heat strips** included, sized assuming no wood stove in use (the existing 10 kW is plenty), with outdoor-temperature lockout.
 - **Condensate float switch.**
 - **Soft starter**, for example Micro-Air EasyStart (if applicable - inverter-driven compressors already start softly and usually do not take one).
 - **Surge protector for the outdoor unit**, for example Intermatic AG3000.
 - **Whole-house panel surge protector**, to protect the indoor unit.
 - **Line set sized to the manufacturer's requirements.**
+- **Installation practices:**
+    - Nitrogen flowed while brazing.
+    - Vacuum pulled to 500 microns, isolated, and verified to hold; triple evacuation preferred.
+    - Refrigerant charge weighed in.
 
 Open question on both surge protectors: are they covered under HOMES or HEAR?
 
@@ -141,6 +148,7 @@ Ask each contractor the same questions and note the answers.
 
 Further questions, suggested:
 
+- **Reports:** Did you get the Manual J and the Assessment report? Can I share them now?
 - **Reliability:** Which of the brands you install has needed the fewest service calls, and what fails most often on the unit you are proposing?
 - **Equipment:** Single-stage, two-stage, or variable speed? Which refrigerant?
 - **Low-temperature heating:** Heating capacity at 17°F and at the 22 to 26°F design temperature? Size of the aux heat strips, and how is aux lockout set?
@@ -174,9 +182,9 @@ The total-price column also tests the $14,000 end-of-life replacement cost assum
 
 ## Open items and next steps
 
-- [ ] Review the sorted requirements list and move any item that landed in the wrong group.
+- [x] Review the sorted requirements list and move any item that landed in the wrong group.
 - [ ] Confirm the outside funding's rules: cost limit, approved contractors, eligible equipment, deadlines, and whether the surge protectors fall under HOMES or HEAR.
-- [ ] Decide whether quotes should assume the wood stove stays in use (T1) or not (T2); it affects how much aux heat matters.
-- [ ] Decide which documents to share with contractors: the 1999 Manual J, the 2026 Assessment report, or only the facts table.
+- [x] Decided: quotes assume the wood stove stays in use (T1), so aux heat is a backup rather than a primary need.
+- [x] Decided: the facts table is shared early, in the one-page brief; the 1999 Manual J and the 2026 Assessment report are offered both at first contact and during the site visit.
 - [ ] Build the contractor shortlist.
 - [ ] Turn the facts table and requirements into a one-page brief to email right after the first call.
