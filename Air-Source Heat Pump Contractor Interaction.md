@@ -62,20 +62,13 @@ The homeowner's list, sorted into three groups; the face-to-face questions are i
 
 - **Brands in scope:** Trane / American Standard, Daikin / Amana (R-32), Bosch; open to others.
 - **Staging:** two-stage or variable speed preferred; single-stage considered if the contractor's reliability experience favors it.
-- **Long-term service plan** (10-year or lifetime) bundled in, covering system checks and warranty repair labor.
 - **Self-monitoring** included, so the equipment reports its own health status.
 - **Verify and reuse the existing ductwork**, all of which is inside the semi-conditioned walkout basement.
 - **Verify and reuse the existing electrical supply wiring.**
 - **Electric aux heat strips** included, sized assuming no wood stove in use (the existing 10 kW is plenty), with outdoor-temperature lockout.
 - **Condensate float switch.**
-- **Soft starter**, for example Micro-Air EasyStart (if applicable - inverter-driven compressors already start softly and usually do not take one).
-- **Surge protector for the outdoor unit**, for example Intermatic AG3000.
-- **Whole-house panel surge protector**, to protect the indoor unit.
+- **Surge protectors** (outdoor unit, indoor whole-house panel) **and soft starter.**
 - **Line set sized to the manufacturer's requirements.**
-- **Installation practices:**
-    - Nitrogen flowed while brazing.
-    - Vacuum pulled to 500 microns, isolated, and verified to hold; triple evacuation preferred.
-    - Refrigerant charge weighed in.
 
 Open question on both surge protectors: are they covered under HOMES or HEAR?
 
@@ -85,9 +78,13 @@ Open question on both surge protectors: are they covered under HOMES or HEAR?
 - Deep filter media.
 - Whole-house dehumidifier.
 
-### Homeowner prep (not for the contractor)
+### Homeowner checklist (not for the contractor)
 
 - Duct cleaning before the HVAC install: NADCA-certified staff, scope inspection, ACR Standard procedures. Main ducts are sheet metal lined inside with fiberglass; branch ducts are 6-inch flex.
+- Product examples for the surge protectors and soft starter:
+    - Outdoor unit surge protector: Intermatic AG3000.
+    - Whole-house panel surge protector: no product named yet.
+    - Soft starter: Micro-Air EasyStart (if applicable - inverter-driven compressors already start softly and usually do not take one).
 
 ## Finding and shortlisting contractors
 
@@ -140,11 +137,12 @@ Ask each contractor the same questions and note the answers.
 1. Are you doing a Manual J or heat load calculation? Can I have a copy? (I can provide input data.)
 2. Can I have the AHRI certificate for the system you are installing?
 3. Are you measuring and checking my ductwork?
-4. Do you flow nitrogen when you braze? Do you use press fittings?
-5. How do you pull a vacuum on the refrigerant lines, and for how long? Wanted: 500 microns, isolate, verify it holds; triple evacuation is best.
-6. How are you charging the system? Wanted: refrigerant weighed in.
-7. Do I get a report after you commission the system, with subcooling, superheat, static pressure, temperature split, and amp draw?
-8. What parts do you stock locally for the proposed equipment?
+4. Can you walk me through your installation practices? Listen for:
+    - Nitrogen flowed while brazing, or press fittings used.
+    - Vacuum pulled to 500 microns, isolated, and verified to hold; triple evacuation is best.
+    - Refrigerant charge weighed in.
+5. Do I get a report after you commission the system, with subcooling, superheat, static pressure, temperature split, and amp draw?
+6. What parts do you stock locally for the proposed equipment?
 
 Further questions, suggested:
 
@@ -155,7 +153,7 @@ Further questions, suggested:
 - **Ducts:** How will the two basement supply ducts be handled?
 - **Line set and electrical:** Reuse or replace the line set, and does its size meet the manufacturer's requirement? Any breaker, disconnect, or wiring changes?
 - **Humidity:** How does the proposed unit handle summer dehumidification?
-- **Warranty and service plan:** Parts, compressor, and labor terms; what the 10-year or lifetime plan covers and costs; typical response time.
+- **Warranty and service plan:** What labor warranty is included, and do you offer an option for a long-term service plan and labor for repairs? What is your typical response time?
 - **Process:** Permit, removal and disposal of old equipment, lead time, install duration, payment schedule.
 - **Funding:** Are you a participating EnergySaverNC contractor, and who files the HOMES / HEAR and Duke Energy paperwork?
 
@@ -166,9 +164,9 @@ A quote is comparable only if it itemizes the same things, so ask each contracto
 - Outdoor unit and air handler model numbers, tonnage, and staging.
 - AHRI-matched SEER2 and HSPF2 for the pairing.
 - Aux heat strip size (kW).
-- Price split into equipment, labor, electrical, duct work, thermostat, permit, and disposal.
+- An itemized list of what is included (equipment, electrical, duct work, thermostat, permit, disposal), with one total price; options priced separately.
 - Rebates or funding applied, and the net price.
-- Warranty terms (parts, compressor, labor) and the price and coverage of the long-term service plan.
+- Warranty terms (parts, compressor, labor) and the price and coverage of any long-term service plan option.
 - Lead time and how long the quote is valid.
 
 | Contractor | Brand / model | Tons / staging | SEER2 / HSPF2 | Aux heat (kW) | Total price ($) | Net after rebates ($) | Warranty (parts / labor) | Lead time | Notes |
