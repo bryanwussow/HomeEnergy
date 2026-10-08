@@ -24,6 +24,29 @@ Call each contractor first, then send them all the same written brief, so the qu
 7. **Compare** in the tracking table; follow up on gaps so every row is filled in the same way.
 8. **Feed results back** into `hvac-summary.md` and `Lifetime Costs.xlsx` (replacement cost, efficiency, service costs), then decide.
 
+## Finding and shortlisting contractors
+
+Aim for a mix: one or two Trane dealers to price the baseline directly, plus two or three dealers of other brands to see what else is available locally.
+
+Where to look:
+
+- EnergySaverNC's participating contractor list, if the HOMES program requires one.
+- Duke Energy's contractor referral listing.
+- Manufacturer dealer locators (Trane, and the other brands worth hearing from).
+- Neighbors and local referrals in the Waxhaw / Union County area.
+- Monarch Air, Heat & Geothermal already knows the house from the geothermal proposal.
+
+Screen before inviting a site visit:
+
+- **Funding:** Are you a participating EnergySaverNC contractor, and who files the HOMES / HEAR and Duke Energy paperwork?
+- NC HVAC license and liability insurance, current.
+- Will give a written, itemized quote with model numbers.
+- Will do or review a load calculation instead of sizing by rule of thumb.
+- Pulls the permit.
+- Installs and services heat pumps with the house's existing duct layout regularly.
+
+No contractor names or listings were looked up for this draft; the sources above are starting points, not verified recommendations.
+
 ## Home and system facts to give every contractor
 
 These are the facts a contractor needs to size and price the job; all are from `hvac-summary.md`.
@@ -85,29 +108,6 @@ Open question on both surge protectors: are they covered under HOMES or HEAR?
     - Outdoor unit surge protector: Intermatic AG3000.
     - Whole-house panel surge protector: no product named yet.
     - Soft starter: Micro-Air EasyStart (if applicable - inverter-driven compressors already start softly and usually do not take one).
-
-## Finding and shortlisting contractors
-
-Aim for a mix: one or two Trane dealers to price the baseline directly, plus two or three dealers of other brands to see what else is available locally.
-
-Where to look:
-
-- EnergySaverNC's participating contractor list, if the HOMES program requires one.
-- Duke Energy's contractor referral listing.
-- Manufacturer dealer locators (Trane, and the other brands worth hearing from).
-- Neighbors and local referrals in the Waxhaw / Union County area.
-- Monarch Air, Heat & Geothermal already knows the house from the geothermal proposal.
-
-Screen before inviting a site visit:
-
-- **Funding:** Are you a participating EnergySaverNC contractor, and who files the HOMES / HEAR and Duke Energy paperwork?
-- NC HVAC license and liability insurance, current.
-- Will give a written, itemized quote with model numbers.
-- Will do or review a load calculation instead of sizing by rule of thumb.
-- Pulls the permit.
-- Installs and services heat pumps with the house's existing duct layout regularly.
-
-No contractor names or listings were looked up for this draft; the sources above are starting points, not verified recommendations.
 
 ## First contact and site visit
 
