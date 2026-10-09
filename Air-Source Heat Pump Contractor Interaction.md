@@ -64,7 +64,7 @@ Sizing position to state up front: 2.5 tons is field-validated for cooling, so a
 
 ## Requirements and requests
 
-The homeowner's list, sorted into three groups; the face-to-face questions are in the site visit section below.
+The homeowner's list, sorted into two groups; the face-to-face questions, the curious-about items, and the homeowner checklist are in the site visit section below.
 
 ### Top priorities
 
@@ -73,35 +73,20 @@ The homeowner's list, sorted into three groups; the face-to-face questions are i
 - **Parts warranty of 10+ years**, including the compressor; the homeowner registers the unit.
 - **Affordable within the EnergySaverNC HOMES program cost limit.**
 - **Very good efficiency:** at least 16 SEER2 and 8.1 HSPF2; higher preferred, for example 18 / 11.
-- **Written commissioning report** with subcooling, superheat, static pressure, temperature split, amp draw, and similar readings.
+- **Written commissioning report**: the manufacturer's startup sheet or an equivalent, showing the readings taken (subcooling, superheat, static pressure, temperature split, amp draw), the manufacturer's targets where it gives them, and the outdoor and indoor temperatures at the time.
 
-### Other definite wants
+### Also important to me
 
 - **Brands in scope:** Trane / American Standard, Daikin / Amana (R-32), Bosch; open to others.
 - **Staging:** two-stage or variable speed preferred; single-stage considered if the contractor's reliability experience favors it.
-- **Self-monitoring** included, so the equipment reports its own health status.
+- **Self-monitoring** desired, so the equipment reports its own health status. It may be built in or an add-on; what would you recommend?
+- **Labor warranty:** what is included, and can an extended labor warranty be added as a priced option?
 - **Verify and reuse the existing ductwork**, all of which is inside the semi-conditioned walkout basement.
 - **Verify and reuse the existing electrical supply wiring.**
-- **Electric aux heat strips** included, sized assuming no wood stove in use (the existing 10 kW is plenty), with outdoor-temperature lockout.
 - **Condensate float switch.**
 - **Surge protectors** (outdoor unit, indoor whole-house panel) **and soft starter.**
-- **Line set sized to the manufacturer's requirements.**
 
 Open question on both surge protectors: are they covered under HOMES or HEAR?
-
-### Curious about, not required
-
-- Generic thermostat (3-stage heating, 2-stage cooling). Ask whether the proposed unit keeps full staging and self-monitoring without the manufacturer's own thermostat.
-- Deep filter media.
-- Whole-house dehumidifier.
-
-### Homeowner checklist (not for the contractor)
-
-- Duct cleaning before the HVAC install: NADCA-certified staff, scope inspection, ACR Standard procedures. Main ducts are sheet metal lined inside with fiberglass; branch ducts are 6-inch flex.
-- Product examples for the surge protectors and soft starter:
-    - Outdoor unit surge protector: Intermatic AG3000.
-    - Whole-house panel surge protector: no product named yet.
-    - Soft starter: Micro-Air EasyStart (if applicable - inverter-driven compressors already start softly and usually do not take one).
 
 ## First contact and site visit
 
@@ -136,32 +121,48 @@ Ask each contractor the same questions and note the answers.
     - Vacuum pulled to 500 microns, isolated, and verified to hold; triple evacuation is best.
     - Refrigerant charge weighed in.
 5. Do I get a report after you commission the system, with subcooling, superheat, static pressure, temperature split, and amp draw?
-6. What parts do you stock locally for the proposed equipment?
+6. Which of the brands you install has needed the fewest service calls, and what fails most often on the unit you are proposing?
+7. What labor warranty is included, and do you offer an option for a long-term service plan and labor for repairs? What is your typical response time?
+8. What parts do you stock locally for the proposed equipment?
 
-Further questions, suggested:
+Further questions, if time allows or from the written quote:
 
-- **Reports:** Did you get the Manual J and the Assessment report? Can I share them now?
-- **Reliability:** Which of the brands you install has needed the fewest service calls, and what fails most often on the unit you are proposing?
+- **Reports:** Did you get my Manual J and Assessment report? Can I share them now?
 - **Equipment:** Single-stage, two-stage, or variable speed? Which refrigerant?
-- **Low-temperature heating:** Heating capacity at 17°F and at the 22 to 26°F design temperature? Size of the aux heat strips, and how is aux lockout set?
-- **Ducts:** How will the two basement supply ducts be handled?
+- **Thermostat:** Can the proposed unit use a generic thermostat (3-stage heating, 2-stage cooling) and keep full staging and self-monitoring, or does it need the manufacturer's own?
+- **Low-temperature heating:** Heating capacity at 17°F and at the 22 to 26°F design temperature? What size aux heat strips do you propose, assuming no wood stove in use (the existing 10 kW is plenty), and how is the outdoor-temperature lockout set?
 - **Line set and electrical:** Reuse or replace the line set, and does its size meet the manufacturer's requirement? Any breaker, disconnect, or wiring changes?
 - **Humidity:** How does the proposed unit handle summer dehumidification?
-- **Warranty and service plan:** What labor warranty is included, and do you offer an option for a long-term service plan and labor for repairs? What is your typical response time?
 - **Process:** Permit, removal and disposal of old equipment, lead time, install duration, payment schedule.
-- **Funding:** Are you a participating EnergySaverNC contractor, and who files the HOMES / HEAR and Duke Energy paperwork?
+- **Funding:** Confirming, you are a participating EnergySaverNC contractor? Who files the HOMES / HEAR and Duke Energy paperwork?
+
+### Curious about, not required
+
+- Deep filter media.
+- Whole-house dehumidifier.
+
+### Homeowner checklist (not for the contractor)
+
+- Duct cleaning before the HVAC install: NADCA-certified staff, scope inspection, ACR Standard procedures. Main ducts are sheet metal lined inside with fiberglass; branch ducts are 6-inch flex.
+- Product examples for the surge protectors and soft starter:
+    - Outdoor unit surge protector: Intermatic AG3000.
+    - Whole-house panel surge protector: no product named yet.
+    - Soft starter: Micro-Air EasyStart (if applicable - inverter-driven compressors already start softly and usually do not take one).
 
 ## Quote comparison
 
-A quote is comparable only if it itemizes the same things, so ask each contractor for all of these in writing:
+A quote is comparable only if it itemizes the same things.
 
-- Outdoor unit and air handler model numbers, tonnage, and staging.
-- AHRI-matched SEER2 and HSPF2 for the pairing.
-- Aux heat strip size (kW).
-- An itemized list of what is included (equipment, electrical, duct work, thermostat, permit, disposal), with one total price; options priced separately.
-- Rebates or funding applied, and the net price.
-- Warranty terms (parts, compressor, labor) and the price and coverage of any long-term service plan option.
-- Lead time and how long the quote is valid.
+Please include these items in your written quote, so I can compare quotes meaningfully:
+
+1. Outdoor unit and air handler model numbers, size in tons, and whether single-stage, two-stage, or variable speed.
+2. AHRI reference number, with the SEER2 and HSPF2 ratings for that pairing.
+3. Aux heat strip size (kW).
+4. What is included (equipment, electrical, duct work, thermostat, permit, disposal), with one total price.
+5. Options, priced separately if possible: surge protection, soft starter if applicable, extended labor warranty, self-monitoring if it is an add-on. Separate option prices are helpful to me, but I don't know whether the Energy Saver NC approval process goes more smoothly with only one total price. Please advise.
+6. Rebates or funding applied, and the net price.
+7. Warranty terms (parts, compressor, labor).
+8. Lead time and how long the quote is valid.
 
 | Contractor | Brand / model | Tons / staging | SEER2 / HSPF2 | Aux heat (kW) | Total price ($) | Net after rebates ($) | Warranty (parts / labor) | Lead time | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
