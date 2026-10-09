@@ -18,7 +18,7 @@ Call each contractor first, then send them all the same written brief, so the qu
 1. **Finalize the requirements list.** Paste it into the section below; sort each item into must-have, preferred, or question.
 2. **Funding is settled.** The HOMES cost limit is known, and participating contractors know the program. The limit is not stated up front; each contractor confirms it by asking.
 3. **Shortlist 4 to 6 contractors** to end up with at least 3 quotes.
-4. **Make first contact by phone** and ask for a site visit; email the one-page brief (home facts + requirements) immediately after the call.
+4. **Make first contact by phone** and ask for a site visit; email the brief (home facts + requirements) immediately after the call.
 5. **Site visit.** Walk the same route and ask the same questions with each contractor; note what they measure and what they ask.
 6. **Request a written, itemized quote** with model numbers, parts, and services.
 7. **Compare** in the tracking table; follow up on gaps so every row is filled in the same way.
@@ -39,7 +39,23 @@ Where to look:
 
 Screening is the first-call question about EnergySaverNC participation; the program vets licensing and insurance.
 
-No contractor names or listings were looked up for this draft; the sources above are starting points, not verified recommendations.
+The shortlist below was supplied by the homeowner; none of these contractors has been checked or vetted in this document.
+
+### Shortlist
+
+| Contractor | Group | First call | Notes |
+| --- | --- | --- | --- |
+| EcoGreen Home Services | Nearby |  | Already knows the house from an earlier proposal |
+| USA Smart Home Solutions | Nearby |  |  |
+| Tru72 Heating & Cooling | Nearby |  |  |
+| Monarch Air, Heat & Geothermal | Nearby |  | Already knows the house from the geothermal proposal; delayed in joining Energy Saver NC |
+| US Energy Solutions | Long distance |  | Screen distance by phone |
+| Energy Efficiency Services | Long distance |  | Screen distance by phone |
+| Superior Heating and Cooling | Long distance |  | Screen distance by phone |
+| M&A Heating and Cooling | Long distance |  | Screen distance by phone |
+| Liv Smart Home Services | Long distance |  | Screen distance by phone |
+
+The long-distance contractors are listed for this location but are based far away. On the first call, ask them: do you regularly serve Waxhaw, and how does the distance affect scheduling and service response?
 
 ## Home and system facts to give every contractor
 
@@ -58,7 +74,7 @@ These are the facts a contractor needs to size and price the job; all are from `
 | Main Floor load, 2026 Assessment | 24,661 Btu/h heating; about 25,761 Btu/h cooling (low-confidence software estimate) |
 | Field history | The existing 2.5-ton unit has cooled the whole home adequately in 100°F+ weather |
 | Air leakage | Estimated 3,490 CFM50 (14.96 ACH50) |
-| Reference equipment for comparing quotes | 2026 Trane 17 series, 2.5 ton, multi-speed, 16 to 18 SEER2 and 8.1 to 11 HSPF2. A reference point from my own research, not a requirement; I welcome your recommendation. |
+| Reference equipment for comparing quotes | 2026 Trane 17 series, 2.5 ton, multi-speed, 16 to 18 SEER2 and 8.1 to 11 HSPF2. A reference point from my own research, not a requirement; I welcome your recommendation. If you are able to provide a water-source heat pump for a geothermal system, I'm eager to discuss that option too. |
 
 Sizing position to state up front: 2.5 tons is field-validated for cooling, so a contractor proposing a different size should show the load calculation behind it.
 
@@ -99,15 +115,15 @@ Open question on both surge protectors: are they covered under HOMES or HEAR?
 - **Baseline:** a 2.5-ton Trane 17-series multi-speed unit, 16 to 18 SEER2 and 8.1 to 11 HSPF2. I'd also like to see what you'd recommend from the brands you install.
 - **What I can share:** a 1999 Manual J and a 2026 home energy assessment.
 - **The ask:** could you schedule a site visit?
-- **Close:** I'll email you a one-page summary of the house and my requirements right after this call. Confirm the best email address.
+- **Close:** I'll email you a summary of the house and my requirements right after this call. Confirm the best email address.
 
 ### Follow-up email (draft)
 
-Sent right after the call, with the one-page brief attached.
+Sent right after the call, with the brief attached.
 
 > Subject: Heat pump replacement quote, 6960 Old Ridge Road, Waxhaw
 >
-> Thank you for taking my call today. As discussed, I'm replacing a 1999 2.5-ton central air-source heat pump at my home in Waxhaw (1,550 ft² main floor, existing ducts), and I'm collecting written, itemized quotes from several contractors. The install will be funded through the EnergySaverNC HOMES program, and I'm hoping to get quotes that fit within the program's cost limit; when I called, your staff confirmed that you are a participating contractor. My baseline is a 2.5-ton Trane 17-series multi-speed unit, 16 to 18 SEER2 and 8.1 to 11 HSPF2, and I'd also like to see what you'd recommend from the brands you install. I can share a 1999 Manual J and a 2026 home energy assessment. A one-page summary of the house and my requirements is attached. I'm looking forward to your home visit on [date_time].
+> Thank you for taking my call today. As discussed, I'm replacing a 1999 2.5-ton central air-source heat pump at my home in Waxhaw (1,550 ft² main floor, existing ducts), and I'm collecting written, itemized quotes from several contractors. The install will be funded through the EnergySaverNC HOMES program, and I'm hoping to get quotes that fit within the program's cost limit; when I called, your staff confirmed that you are a participating contractor. My baseline is a 2.5-ton Trane 17-series multi-speed unit, 16 to 18 SEER2 and 8.1 to 11 HSPF2, and I'd also like to see what you'd recommend from the brands you install. I can share a 1999 Manual J and a 2026 home energy assessment. A summary of the house and my requirements is attached. I'm looking forward to your home visit on [date_time].
 
 ### Questions for the site visit
 
@@ -178,6 +194,6 @@ The total-price column also tests the $14,000 end-of-life replacement cost assum
 - [x] Review the sorted requirements list and move any item that landed in the wrong group.
 - [x] Decided: the HOMES cost limit is known and is not stated up front; contractors confirm it by asking.
 - [x] Decided: the equipment will be used in both T1 and T2 scenarios at different times; aux heat is a backup rather than a primary need.
-- [x] Decided: the facts table is shared early, in the one-page brief; the 1999 Manual J and the 2026 Assessment report are offered both at first contact and during the site visit.
-- [ ] Build the contractor shortlist.
-- [ ] Turn the facts table and requirements into a one-page brief to email right after the first call.
+- [x] Decided: the facts table is shared early, in the brief; the 1999 Manual J and the 2026 Assessment report are offered both at first contact and during the site visit.
+- [x] Build the contractor shortlist. Done: nine contractors listed under Finding and shortlisting contractors.
+- [x] Turn the facts table and requirements into a brief to email right after the first call. Done: `Contractor Brief.md`.
