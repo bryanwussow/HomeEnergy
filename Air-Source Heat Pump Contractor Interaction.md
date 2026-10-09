@@ -196,4 +196,4 @@ The total-price column also tests the $14,000 end-of-life replacement cost assum
 - [x] Decided: the equipment will be used in both T1 and T2 scenarios at different times; aux heat is a backup rather than a primary need.
 - [x] Decided: the facts table is shared early, in the brief; the 1999 Manual J and the 2026 Assessment report are offered both at first contact and during the site visit.
 - [x] Build the contractor shortlist. Done: nine contractors listed under Finding and shortlisting contractors.
-- [x] Turn the facts table and requirements into a brief to email right after the first call. Done: `Contractor Brief.md`.
+- [x] Turn the facts table and requirements into a brief to email right after the first call. Done: `Home Summary - Priorities.md`.

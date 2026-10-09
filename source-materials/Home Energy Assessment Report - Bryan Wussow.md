@@ -1,6 +1,6 @@
 # Home Energy Assessment Report — Energy Saver North Carolina
 
-**Note:** This is a text extract of `Bryan Wussow 6960 Old Ridge Road Waxhaw NC 28173.pdf`. Tables/charts in the original PDF are represented here as plain text/lists; numbers are preserved but layout is not exact. The original PDF is more reliable for anything involving chart shapes or page layout — consider adding the original PDF to this folder too if you want Claude Code to be able to reference it directly.
+**Note:** This is a text extract of `Home Energy Assessment ESNC.pdf`. Tables/charts in the original PDF are represented here as plain text/lists; numbers are preserved but layout is not exact. The original PDF is more reliable for anything involving chart shapes or page layout — consider adding the original PDF to this folder too if you want Claude Code to be able to reference it directly.
 
 ---
 
