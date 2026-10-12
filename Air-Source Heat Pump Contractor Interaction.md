@@ -139,7 +139,8 @@ Ask each contractor the same questions and note the answers.
 5. Do I get a report after you commission the system, with subcooling, superheat, static pressure, temperature split, and amp draw?
 6. Which of the brands you install has needed the fewest service calls, and what fails most often on the unit you are proposing?
 7. What labor warranty is included, and do you offer an option for a long-term service plan and labor for repairs? What is your typical response time?
-8. What parts do you stock locally for the proposed equipment?
+8. Will any of the HVAC work be subcontracted? If so, who installs it, and who is responsible for the warranty, labor coverage, and commissioning report?
+9. What parts do you stock locally for the proposed equipment?
 
 Further questions, if time allows or from the written quote:
 
