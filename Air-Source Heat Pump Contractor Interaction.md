@@ -43,19 +43,22 @@ The shortlist below was supplied by the homeowner; none of these contractors has
 
 ### Shortlist
 
-| Contractor | Group | First call | Notes |
+| Contractor | Office | First contact | Notes |
 | --- | --- | --- | --- |
-| EcoGreen Home Services | Nearby |  | Already knows the house from an earlier proposal |
-| USA Smart Home Solutions | Nearby |  |  |
-| Tru72 Heating & Cooling | Nearby |  |  |
-| Monarch Air, Heat & Geothermal | Nearby |  | Already knows the house from the geothermal proposal; delayed in joining Energy Saver NC |
-| US Energy Solutions | Long distance |  | Screen distance by phone |
-| Energy Efficiency Services | Long distance |  | Screen distance by phone |
-| Superior Heating and Cooling | Long distance |  | Screen distance by phone |
-| M&A Heating and Cooling | Long distance |  | Screen distance by phone |
-| Liv Smart Home Services | Long distance |  | Screen distance by phone |
+| Clear Volt Corp | Raleigh |  |  |
+| EcoGreen Home Services | Cornelius |  | Already knows the house from an earlier proposal |
+| Energy Efficiency Services of NC | Raleigh | 10/9 |  |
+| Home Energy Loss Prevention | Asheville | 10/16 | Also works with Duke Energy rebates |
+| Liv Smart Home Services | Raleigh |  |  |
+| M&A Heating and Cooling | Winston-Salem |  |  |
+| Maynard Heating and Cooling | Hickory |  |  |
+| Monarch Air, Heat & Geothermal | Charlotte |  | Already knows the house from the geothermal proposal; delayed in joining Energy Saver NC |
+| Superior Heating and Cooling | Fuquay-Varina | 10/14 |  |
+| Tru72 Heating & Cooling | Concord |  |  |
+| USA Smart Home Solutions | Charlotte | 10/14 |  |
+| US Energy Solutions |  |  |  |
 
-The long-distance contractors are listed for this location but are based far away. On the first call, ask them: do you regularly serve Waxhaw, and how does the distance affect scheduling and service response?
+Distance comes up on the first call. Contractors based farther away may group several jobs into one trip to this area, or subcontract some of the work.
 
 ## Home and system facts to give every contractor
 
@@ -117,13 +120,59 @@ Open question on both surge protectors: are they covered under HOMES or HEAR?
 - **The ask:** could you schedule a site visit?
 - **Close:** I'll email you a summary of the house and my requirements right after this call. Confirm the best email address.
 
-### Follow-up email (draft)
+### Follow-up email (as sent)
 
-Sent right after the call, with the brief attached.
+Sent right after the call, with five attachments.
 
-> Subject: Heat pump replacement quote, 6960 Old Ridge Road, Waxhaw
+> Hello [name],
 >
-> Thank you for taking my call today. As discussed, I'm replacing a 1999 2.5-ton central air-source heat pump at my home in Waxhaw (1,550 ft² main floor, existing ducts), and I'm collecting written, itemized quotes from several contractors. The install will be funded through the EnergySaverNC HOMES program, and I'm hoping to get quotes that fit within the program's cost limit; when I called, your staff confirmed that you are a participating contractor. My baseline is a 2.5-ton Trane 17-series multi-speed unit, 16 to 18 SEER2 and 8.1 to 11 HSPF2, and I'd also like to see what you'd recommend from the brands you install. I can share a 1999 Manual J and a 2026 home energy assessment. A summary of the house and my requirements is attached. I'm looking forward to your home visit on [date_time].
+> Glad to talk with you. As we discussed, I need to replace my 1999 2.5-ton central air-source heat pump at my home in Waxhaw (1,550 ft² main floor, existing ducts). I'm accepted in the EnergySaverNC HOMES program, my home energy assessment is complete, and the next step is collecting written, itemized quotes from several contractors. I'm hoping to get quotes that fit within the program's cost limit.
+>
+> My baseline is a 2.5-ton Trane 17-series multi-speed unit, 16 to 18 SEER2 and 8.1 to 11 HSPF2, and I'd also like to see what you'd recommend from the brands you install. And of course the home assessment lists related projects as well.
+>
+> Attached are two key documents, including a list of what's important to me:
+>
+> - Home Summary & Priorities.pdf: Contractor Brief on Home and Priorities
+> - Home Energy Assessment ESNC.pdf: Home Assessment by Energy Saver NC
+>
+> Also attached is further information from my own analysis. These are for background only. I'm not asking you to change anything in the Energy Saver NC program's model. I expect that the HOMES program will use their own Assessment figures when reviewing a quote.
+>
+> - Manual J 1999.pdf: Heat Load Calculations for original construction
+> - Load Calculation Reconciliation.pdf: reconciling the ESNC and 1999 Load Calc
+> - Energy Use - Corrected Estimates report.pdf: Corrected Estimates and Future Scenarios
+>
+> In case you would consider doing a geothermal heat pump unit installation, let me know.
+>
+> I'm looking forward to discussing your proposal and options.
+
+### Second contact: follow-up email (draft)
+
+Sent about two weeks after the first email if there's no reply, with no attachments. If it also gets no reply within about a week, follow up by phone.
+
+> Subject: Following up: heat pump quote, 6960 Old Ridge Road, Waxhaw
+>
+> Hi [name],
+>
+> I hope your team has had a chance to review the Home Summary & Priorities and the Energy Saver NC Home Energy Assessment I sent on [date].
+>
+> When would be a good time for a site visit?
+>
+> It would also help to see a short preliminary list of what you're considering for your proposal; prices can wait for the formal quote. Will you propose the heat pump alone, or other measures from the Assessment too? For example:
+>
+> - Heat pump equipment:
+>     - Model numbers and AHRI reference number
+>     - What's included: duct connection, heat strips, thermostat, permit, disposal, warranty
+>     - Options: extended labor warranty, surge protection for the outdoor unit, soft starter if applicable, condensate float switch, self-monitoring
+> - Electrical: surge protection at the panel for the new indoor equipment
+> - Air leakage testing and sealing, and added insulation
+> - Water heater upgrade
+> - Replacing the wood stove with a mini-split: I'm open to discussing this, probably as a separate quote. I understand HEAR program rules may be changing, so it may not qualify.
+>
+> Discussing a preliminary list now will help align your formal quote when the time comes.
+>
+> Thank you, and I look forward to hearing from you.
+>
+> Bryan
 
 ### Questions for the site visit
 
@@ -176,7 +225,7 @@ Please include these items in your written quote, so I can compare quotes meanin
 2. AHRI reference number, with the SEER2 and HSPF2 ratings for that pairing.
 3. Aux heat strip size (kW).
 4. What is included (equipment, electrical, duct work, thermostat, permit, disposal), with one total price.
-5. Options, priced separately if possible: surge protection, soft starter if applicable, extended labor warranty, self-monitoring if it is an add-on. Separate option prices are helpful to me, but I don't know whether the Energy Saver NC approval process goes more smoothly with only one total price. Please advise.
+5. Options, priced separately if possible: surge protection, soft starter if applicable, extended labor warranty, condensate float switch, self-monitoring if it is an add-on. Separate option prices are helpful to me, but I don't know whether the Energy Saver NC approval process goes more smoothly with only one total price. Please advise.
 6. Rebates or funding applied, and the net price.
 7. Warranty terms (parts, compressor, labor).
 8. Lead time and how long the quote is valid.
@@ -196,5 +245,5 @@ The total-price column also tests the $14,000 end-of-life replacement cost assum
 - [x] Decided: the HOMES cost limit is known and is not stated up front; contractors confirm it by asking.
 - [x] Decided: the equipment will be used in both T1 and T2 scenarios at different times; aux heat is a backup rather than a primary need.
 - [x] Decided: the facts table is shared early, in the brief; the 1999 Manual J and the 2026 Assessment report are offered both at first contact and during the site visit.
-- [x] Build the contractor shortlist. Done: nine contractors listed under Finding and shortlisting contractors.
+- [x] Build the contractor shortlist. Done: twelve contractors listed under Finding and shortlisting contractors.
 - [x] Turn the facts table and requirements into a brief to email right after the first call. Done: `Home Summary & Priorities.md`.
